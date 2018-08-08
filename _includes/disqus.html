@@ -1,0 +1,13 @@
+
+<!-- see https://github.com/disqus/disqus-install-examples/tree/master/google-amp -->
+{% if site.disqus %}
+<div class="comments">
+<amp-iframe width=600 height=140
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            resizable
+            src="https://dogeminer.se/amp.html?title={{:page.url}}&id={{page.title}}%20–%20{{site.title}}">
+			<div overflow tabindex=0 role=button aria-label="">Read more...</div>
+		</amp-iframe>
+</div>
+{% endif %}

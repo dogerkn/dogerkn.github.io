@@ -1,0 +1,44 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Dogeminer 2: Devblog 2 The Moon(s)"
+email: "rkn@dogeminer.se"
+description: "In the Dogeminer 2: Developer blog you can get a glimpse of what's going on behind the scenes."
+logo: "/assets/images/dogeminer2_devblog.png"
+twittercta: "https://blog.dogeminer2.com/images/fallow.png"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.dogeminer2.com" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+disqus: "dogeminer"
+name: "rkn"
+bio: "Webdev, gamedev, ADHD-brawler, scifi- & AI-lover + tons of anxiety. Games released: dogeminer2.com, dogeminer.se"
+author_image: "/assets/images/author.png"
+twitter_username: "rkn_dev" # todo insert all social shit in places yo
+instagram: "dogeminerdev"
+facebook: "dogeminer"
+email: "rkn@dogeminer.se"
+# Google Analytics -- using a new one here for amp blog
+analytics_id: "UA-38661153-14"
+permalink: /:title/
+# Build settings
+markdown: kramdown
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: "rkn@dogeminer.se"
+  facebook: "dogeminer"
+  instagram: "dogeminerdev"
+  rss: "wololo" # just type anything here for a working RSS icon
+  twitter: "rkn_dev"
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
