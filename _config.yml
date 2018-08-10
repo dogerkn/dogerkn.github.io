@@ -11,7 +11,7 @@ email: "rkn@dogeminer.se"
 description: "In the Dogeminer developer blog you might get a glimpse of what's going on behind the scenes. Or the ramblings of a madman."
 logo: "/assets/images/dogeminer2_devblog.png"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ampblog.dogeminer2.com" # the base hostname & protocol for your site
+url: "https://blog.dogeminer2.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 disqus: "dogeminer"
 name: "rkn"
