@@ -4,41 +4,47 @@ layout: default
 <main class="content" role="main">
   <div class="cf frame">
     {% for post in paginator.posts %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <span class="blogposting-prop" itemprop="name">Dogeminer Developer Blog Post</span>
-            <link itemprop="image" href="{{ site.url }}/assets/images/dogeminer2_devblog_300x300.png" class="blogposting-prop"/>
-            <h2 class="post-title" itemprop="headline"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-          </header>
-          <section class="post-excerpt" itemprop="description">
-            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-          </section>
-          <div class="post-meta">
-            <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
-            <link itemprop="author" itemtype="Person" href="https://twitter.com/rkn_dev" itemname="rkn" class="blogposting-prop">rkn</link>
-            <link itemprop="publisher" itemtype="Person" href="https://twitter.com/rkn_dev" itemname="rkn" class="blogposting-prop">rkn</link>
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <span class="blogposting-prop" itemprop="name">Dogeminer Developer Blog Post</span>
+          <link itemprop="image" href="{{ site.url }}/assets/images/dogeminer2_devblog_300x300.png" class="blogposting-prop" />
+          <h2 class="post-title" itemprop="headline">
+            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+          </h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        </section>
+        <div class="post-meta">
+          <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+          <div itemprop="author" itemtype="http://schema.org/Person" class="blogposting-prop">
+            <span itemprop="name" class="blogposting-prop">rkn</span>
+            <a itemprop="url" href="https://twitter.com/rkn_dev" class="blogposting-prop">https://twitter.com/rkn_dev</a>
           </div>
+          <div itemprop="publisher" itemtype="http://schema.org/Person" class="blogposting-prop">
+            <span itemprop="name" class="blogposting-prop">rkn</span>
+            <a itemprop="url" href="https://twitter.com/rkn_dev" class="blogposting-prop">https://twitter.com/rkn_dev</a>
+          </div>
+          <!-- <link itemprop="publisher" itemtype="Person" href="https://twitter.com/rkn_dev" itemname="rkn" class="blogposting-prop"/> -->
         </div>
-      </article>
+      </div>
+    </article>
     {% endfor %}
   </div>
   <div class="pagination" role="navigation">
     {% if paginator.next_page %}
-      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
+    <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
     {% else %}
-      <a class="newer-posts disabled">&larr; Older posts</a>
+    <a class="newer-posts disabled">&larr; Older posts</a>
     {% endif %}
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
-      {% else %}
-        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-      {% endif %}
+    {% if paginator.previous_page %} {% if paginator.page == 2 %}
+    <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
     {% else %}
-      <a class="older-posts disabled">Newer posts &rarr;</a>
+    <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+    {% endif %} {% else %}
+    <a class="older-posts disabled">Newer posts &rarr;</a>
     {% endif %}
   </div>
 </main>
-
