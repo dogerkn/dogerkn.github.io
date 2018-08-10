@@ -56,3 +56,4 @@ exclude:
   - new_markdown_specials.txt
   - 2016-03-08-example-post.md
   - about.md
+theme: jekyll-theme-slate
