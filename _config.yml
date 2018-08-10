@@ -8,15 +8,14 @@
 # Site settings
 title: "Dogeminer 2: Devblog 2 The Moon(s)"
 email: "rkn@dogeminer.se"
-description: "In the Dogeminer 2: Developer blog you can get a glimpse of what's going on behind the scenes."
+description: "In the Dogeminer developer blog you can get a glimpse of what's going on behind the scenes. Or the ramblings of a madman."
 logo: "/assets/images/dogeminer2_devblog.png"
-twittercta: "https://blog.dogeminer2.com/images/fallow.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dogeminer2.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 disqus: "dogeminer"
 name: "rkn"
-bio: "Webdev, gamedev, ADHD-brawler, scifi- & AI-lover + tons of anxiety. Games released: dogeminer2.com, dogeminer.se"
+bio: "Webdev, gamedev, ADHD-fighter, scifi- & AI-lover + tons of anxiety. Follow for more shenanigans."
 author_image: "/assets/images/author.png"
 twitter_username: "rkn_dev" # todo insert all social shit in places yo
 instagram: "dogeminerdev"

@@ -5,7 +5,7 @@ title: Let's Play Guess The D.I.A. Mission Objective!
 
 ## Here's a small screen cap from its current state
 
-<amp-img width="233" height="410" layout="responsive" alt="A picture of Kitler and some kittens" src="/assets/images/mission1.jpg"></amp-img>
+<amp-img width="233" height="410" alt="A picture of Kitler and some kittens" src="/assets/images/mission1.jpg"></amp-img>
 
 #### Can you guess what it will be? Might be too obvious hah.
 

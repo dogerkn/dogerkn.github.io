@@ -26,6 +26,6 @@ And here's the video in case you've missed it:
 
 <amp-youtube
 data-param-rel="0"
-    data-videoid="gR6LOIY6adw"
+    data-videoid="tUFnqPPVavE"
     layout="responsive"
     width="480" height="270"></amp-youtube>

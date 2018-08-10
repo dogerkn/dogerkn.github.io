@@ -23,15 +23,10 @@ layout: default
       <div class="isLeft">
         <h5 class="index-headline featured"><span>DEVELOPER</span></h5>
         <section class="author">
-          <div class="author-image"></div>
-          <h4>{{ site.name }}</h4>
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="freelink"><div class="author-image"></div></a>
+          <h4><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="freelink">{{ site.name }}</a></h4>
           <p class="bio">{{site.bio}}</p>
           <p>
-            <!-- <span>
-              {% if site.github_username %}
-                {% include icon-github.html username=site.github_username %}
-              {% endif %}
-            </span> -->
             <span>
               {% if site.twitter_username %}
                 {% include icon-twitter.html username=site.twitter_username %}
@@ -42,21 +37,9 @@ layout: default
 
         </section>
       </div>
-
-      <!-- <div class="isRight">
-        <h5 class="index-headline featured"><span>Supported by</span></h5>
-        <footer class="site-footer">
-          <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
-          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-          <div class="inner">
-            <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a></section>
-          </div>
-        </footer>
-      </div> -->
     </div>
     <section class="comment-section">
       {% include disqus.html %}
     </section>
   </article>
 </main>
-{% include footer.html %}

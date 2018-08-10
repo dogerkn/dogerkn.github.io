@@ -3,7 +3,7 @@ layout: post
 title: Oh nooooo
 ---
 
-<amp-img width="233" height="410" layout="responsive" alt="Fun picture depicting procrastination" src="/assets/images/ohno.png"></amp-img>
+<amp-img width="500" height="213" layout="responsive" alt="Fun picture depicting procrastination" src="/assets/images/ohno.png"></amp-img>
 
 ## This post is mostly just a filler post, me rambling etc, also some updates on the work and a few question at the bottom!
 

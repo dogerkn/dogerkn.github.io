@@ -3,12 +3,6 @@ layout: default
 ---
 
 <main class="content" role="main">
-
-  <!-- <header class="blog-header">
-      <h1 class="blog-title">{{ site.title }}</h1>
-      <h2 class="blog-description">{{ site.description }}</h2>
-  </header> -->
-
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -26,8 +20,7 @@ layout: default
       </article>
     {% endfor %}
   </div>
-
-  <nav class="pagination" role="navigation">
+  <div class="pagination" role="navigation">
     {% if paginator.next_page %}
       <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
     {% else %}
@@ -43,8 +36,6 @@ layout: default
     {% else %}
       <a class="older-posts disabled">Newer posts &rarr;</a>
     {% endif %}
-  </nav>
-
+  </div>
 </main>
 
-{% include footer.html %}

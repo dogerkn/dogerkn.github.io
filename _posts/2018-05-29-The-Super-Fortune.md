@@ -3,7 +3,7 @@ layout: post
 title: The Super Fortune
 ---
 
-<amp-img width="120" height="124" layout="responsive" alt="The Super Fortune icon" src="/assets/images/superfortune.png"></amp-img>
+<amp-img width="120" height="124" alt="The Super Fortune icon" src="/assets/images/superfortune.png"></amp-img>
 
 #### This is a fortune that's coming in the update, isn't it just ....shiny?
 

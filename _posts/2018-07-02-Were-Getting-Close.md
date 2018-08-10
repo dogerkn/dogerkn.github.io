@@ -21,6 +21,6 @@ I think the update is **about a month away**, which means about two months if my
 
 This last part is completely off topic but, [Elon Musk replied to me on Twitter](https://twitter.com/rknDA1337){:target="_blank"} on something I am very passinate about ([The Culture novels](https://en.wikipedia.org/wiki/The_Culture){:target="_blank"}) and it was **the most amazing thing** to happen to me last month. *Yes I'm bragging, it's my blog, I can do what I want, damn it!*
 
-<amp-img width="417" height="265" layout="responsive" alt="Elon Musk replies to my question" src="/assets/images/reply.png"></amp-img>
+<amp-img width="417" height="265" alt="Elon Musk replies to my question, best day ever" src="/assets/images/reply.png"></amp-img>
 
 Anyway, I you haven't already, subscribe to [the subreddit](https://www.reddit.com/r/DogeMiner/){:target="_blank"} for more discussions and uhh follow me [on twitter](https://twitter.com/rknDA1337){:target="_blank"} please? I'm trying to grow a bigger audience. *The [Facebook page](https://www.facebook.com/dogeminer/){:target="_blank"} is the biggest currently (33K followers as of writing) but I feel that Facebook is kind of getting disconnected, as many young people don't use it. Should I try instagram and/or snapchat? Is that what the kids are using these days? /feels old*

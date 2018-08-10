@@ -1,11 +1,8 @@
-
 //
 // VARIABLES
 //
-
 // Colors
 $blue: #4183C4;
-
 // Grays
 $black: #000;
 $darkerGray: #222;
@@ -13,15 +10,103 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
-
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
+$helvetica: Helvetica,
+Arial,
+sans-serif;
+$helveticaNeue: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+$georgia: Georgia,
+serif;
+$mobileBreak: 640px;
+$rs: 16px;
+$font-serif: "Helvetica",
+Georgia,
+Cambria,
+"Times New Roman",
+Times,
+'Lora',
+serif;
+$font-sans: "Helvetica Neue",
+'Open Sans',
+Arial,
+Helvetica,
+sans-serif;
+@mixin respond-to($breakpoint) {
+  @media only screen and (max-width: $breakpoint + px) {
     @content;
   }
 }
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: $mobileBreak) {
+    @content;
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin box-sizing ($box) {
+  //  content-box | border-box | inherit
+  @include prefixer(box-sizing, $box, webkit moz spec);
+}
+
+// Variable settings for /addons/prefixer.scss
+$prefix-for-webkit : true !default;
+$prefix-for-mozilla : true !default;
+$prefix-for-microsoft: true !default;
+$prefix-for-opera : true !default;
+$prefix-for-spec : true !default; // required for keyframe mixin
+@mixin prefixer ($property, $value, $prefixes) {
+  @each $prefix in $prefixes {
+    @if $prefix==webkit {
+      @if $prefix-for-webkit {
+        -webkit-#{$property}: $value;
+      }
+    }
+    @else if $prefix==moz {
+      @if $prefix-for-mozilla {
+        -moz-#{$property}: $value;
+      }
+    }
+    @else if $prefix==ms {
+      @if $prefix-for-microsoft {
+        -ms-#{$property}: $value;
+      }
+    }
+    @else if $prefix==o {
+      @if $prefix-for-opera {
+        -o-#{$property}: $value;
+      }
+    }
+    @else if $prefix==spec {
+      @if $prefix-for-spec {
+        #{$property}: $value;
+      }
+    }
+    @else {
+      @warn "Unrecognized prefix: #{$prefix}";
+    }
+  }
+}
+
+@mixin disable-prefix-for-all() {
+  $prefix-for-webkit: false !global;
+  $prefix-for-mozilla: false !global;
+  $prefix-for-microsoft: false !global;
+  $prefix-for-opera: false !global;
+  $prefix-for-spec: false !global;
+}
+
+
+$em-base: 16px !default;
+$asset-pipeline: false !default;
