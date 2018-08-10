@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 .DS_Store
 new_markdown_specials.txt
+_sass/bourbon
