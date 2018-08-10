@@ -7,13 +7,17 @@ layout: default
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
-            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+            <span class="blogposting-prop" itemprop="name">Dogeminer Developer Blog Post</span>
+            <link itemprop="image" href="{{ site.url }}/assets/images/dogeminer2_devblog_300x300.png" class="blogposting-prop"/>
+            <h2 class="post-title" itemprop="headline"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
           </header>
           <section class="post-excerpt" itemprop="description">
             <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
           <div class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+            <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+            <link itemprop="author" href="https://twitter.com/rkn_dev" class="blogposting-prop"/>
+            <link itemprop="publisher" href="https://twitter.com/rkn_dev" class="blogposting-prop"/>
           </div>
         </div>
       </article>

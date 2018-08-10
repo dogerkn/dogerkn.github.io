@@ -14,7 +14,10 @@ $grey-color: #828282;
     }
   }
 }
-
+/** Invisible stuff for BlogPosting schema.org shazzle**/
+.blogposting-prop {
+  display:none;
+}
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
