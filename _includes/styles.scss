@@ -29,7 +29,12 @@ $grey-color: #828282;
 .clearfix:after {
   clear: both;
 }
-
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
 // amp-img {
 // background-color: grey;
 // }
