@@ -17,8 +17,8 @@ layout: default
           <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
         </section>
         <div class="post-meta">
-            <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
-            <time itemprop="dateModified" datetime="{{ post.date | date_to_xmlschema }}" class="blogposting-prop">{{ post.date | date_to_long_string }}</time>
+          <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+          <time itemprop="dateModified" datetime="{{ post.date | date_to_xmlschema }}" class="blogposting-prop">{{ post.date | date_to_long_string }}</time>
           <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="blogposting-prop">
             <span itemprop="name" class="blogposting-prop">rkn</span>
             <a itemprop="url" href="https://twitter.com/rkn_dev" class="blogposting-prop">https://twitter.com/rkn_dev</a>
@@ -37,12 +37,12 @@ layout: default
             <span itemprop="name">Dogeminer 2: Back 2 The Moon™</span>
             <link itemprop="url" href="https://dogeminer2.com/" />
           </div>
-          <!-- <link itemprop="publisher" itemtype="Person" href="https://twitter.com/rkn_dev" itemname="rkn" class="blogposting-prop"/> -->
         </div>
       </div>
     </article>
     {% endfor %}
   </div>
+  {% include page-ad.html %}
   <div class="pagination" role="navigation">
     {% if paginator.next_page %}
     <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
