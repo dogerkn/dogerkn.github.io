@@ -14,10 +14,14 @@ $grey-color: #828282;
     }
   }
 }
+
+
 /** Invisible stuff for BlogPosting schema.org shazzle**/
+
 .blogposting-prop {
-  display:none;
+  display: none;
 }
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -29,12 +33,15 @@ $grey-color: #828282;
 .clearfix:after {
   clear: both;
 }
+
 em {
   font-style: italic;
 }
+
 strong {
   font-weight: 700;
 }
+
 // amp-img {
 // background-color: grey;
 // }
@@ -241,10 +248,8 @@ body {
     height: 30px;
     line-height: 30px;
     margin-right: 8px;
-    margin-bottom: -10px;
-    // float: left;
-    background-size: cover;
-    // border-radius: 100%;
+    margin-bottom: -10px; // float: left;
+    background-size: cover; // border-radius: 100%;
     text-indent: -9999px;
   }
   .post-meta-text {
@@ -449,8 +454,7 @@ body {
         width: 85px;
         height: 80px;
         float: left;
-        background-size: cover;
-        // border-radius: 100%;
+        background-size: cover; // border-radius: 100%;
         text-indent: -9999px;
       }
       h4 {
@@ -688,8 +692,7 @@ nav {
 .site-bio-right {
   // display: inline-block;
   width: 47%;
-  float: right;
-  // margin-left: 15px;
+  float: right; // margin-left: 15px;
   @include mobile {
     // float: none;
     // display: inline-block;
@@ -773,10 +776,9 @@ nav {
 }
 
 .top-teaser {
-  display:inline;
+  display: inline;
   padding: 50px 0 0 0;
-  font-family: $font-sans;
-  // hr {
+  font-family: $font-sans; // hr {
   //   border: 0;
   //   padding: 0;
   //   display: block;
@@ -787,14 +789,16 @@ nav {
   // }
   .isRight {
     float: right;
-    width: 29%;
+    width: 45%;
     @include box-sizing(border-box);
-
+    @include mobile {
+      width: 29%;
+    }
     .bio {
       margin-top: 10px;
       margin-bottom: 15px;
       @include mobile {
-        display:none;
+        display: none;
       }
     }
     .username {
@@ -802,7 +806,7 @@ nav {
       margin-right: 18px;
       margin-bottom: 18px;
       @include mobile {
-       margin: 0;
+        margin: 0;
       }
     }
     .index-headline {
@@ -819,10 +823,9 @@ nav {
         text-decoration: underline;
       }
       @include mobile {
-       text-align:center;
+        text-align: center;
       }
     }
-
     .author-image {
       background-image: url('{{ site.baseurl }}{{site.author_image}}');
       display: inline-block;
@@ -830,24 +833,20 @@ nav {
       height: 30px;
       line-height: 30px;
       margin-right: 8px;
-      margin-bottom: -10px;
-      // float: left;
-      background-size: cover;
-      // border-radius: 100%;
+      margin-bottom: -10px; // float: left;
+      background-size: cover; // border-radius: 100%;
       text-indent: -9999px;
-
     }
     .author-image {
       display: block;
       width: 85px;
       height: 80px;
       float: left;
-      background-size: cover;
-      // border-radius: 100%;
+      background-size: cover; // border-radius: 100%;
       text-indent: -9999px;
       @include mobile {
         margin: 0;
-        display:inline-block;
+        display: inline-block;
         float: none;
       }
     }
@@ -859,7 +858,7 @@ nav {
       margin: 0;
       padding-left: 100px;
       @include mobile {
-        display:none;
+        display: none;
       }
     }
     p {
@@ -873,19 +872,21 @@ nav {
         color: #999999;
       }
       @include mobile {
-       padding:0;
+        padding: 0;
       }
     }
   }
 }
+
 .bottom-feed-aa {
-  display:block;
+  display: block;
   max-height: 300px;
   .btm-placeholder {
     font-size: 14px;
     color: rgb(189, 189, 189);
   }
 }
+
 .bottom-aa-post {
   max-height: 300px;
 }
