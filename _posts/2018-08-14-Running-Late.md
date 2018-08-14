@@ -16,7 +16,13 @@ Gathering the votes from [last weeks poll](https://twitter.com/rkn_dev/status/10
 
 Because I haven't. They're not supposed to be more than 1 or 2 in total, but I don't think they work. Has to do with this now being an AMP only blog, but still, annoying as it is my only income for this project. Oh well, a cleaner experience for the read is also nice.
 
-I've been reading up on **affiliate marketing** as an addition as well as **patreon**, but I have no idea where to start - or if I _event want a patreon_ for a single project like this (time consuming as it is...). **Would you sub to a patreon by me?** _What would you expect to get as a patron?_ I just made a strawpoll for this so you won't have to type if you don't want to: [strawpoll link, easy to answer, pls click.](https://www.strawpoll.me/16267742){:target="_blank" rel="noreferrer noopener"}
+I've been reading up on **affiliate marketing** as an addition as well as **patreon**, but I have no idea where to start - or if I _event want a patreon_ for a single project like this (time consuming as it is...). 
+
+##### Would you sub to a Patreon if I make one?
+
+_What would you expect to get as a patron?_
+
+I have an idea where patrons could, for example, make fortunes for the game (with other patrons voting to have some sort of quality control maybe), after which they can be added to the game. Also patrons could help decide/vote for the future development of the game. It might be a start. If I decide to do this, I'll do tons of brainstorming to make sure that patrons get decent content and unique ways to influence the game. Since I'm not sure if this is a good way to go, I made a poll for it (another poll, yay!): [Link to strawpoll about dogeminer patreon](https://www.strawpoll.me/16267742){:target="_blank" rel="noreferrer noopener"}.
 
 **Reading this and got thoughts for me?** Hit me up _(apart from the disqus comment section below (anonymous commenting works) I recommend you either tweet me, email me (see footer) or send a facebook PM (also in footer))._
 
