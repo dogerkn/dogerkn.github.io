@@ -883,6 +883,8 @@ nav {
   max-height: 350px;
   overflow: auto;
   max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
   .btm-placeholder {
     font-size: 14px;
     color: rgb(189, 189, 189);
@@ -890,9 +892,12 @@ nav {
 }
 
 .bottom-aa-post {
+  display:block;
   max-height: 300px;
   overflow: auto;
   max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
   .btm-placeholder {
     font-size: 14px;
     color: rgb(189, 189, 189);
