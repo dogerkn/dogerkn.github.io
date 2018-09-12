@@ -14,10 +14,19 @@ layout: default
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+        <p>Share this post:</p>
+        <div class="share-flex">
+          <amp-social-share type="system" data-mode="replace"></amp-social-share>
+          <amp-social-share type="facebook" data-param-app_id="458883514568847" data-param-quote="{{page.title | escape}} via @Dogeminer"></amp-social-share>
+          <amp-social-share type="twitter" data-param-text="{{ page.title | escape }} (via @{{ site.twitter_username }})"></amp-social-share>
+          <amp-social-share type="gplus"></amp-social-share>
+          <amp-social-share type="tumblr"></amp-social-share>
+          <amp-social-share type="email"></amp-social-share>
+          <!-- <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
           Share on
           {% include icon-twitter.html %}
-        </a>
+        </a> -->
+      </div>
       </section>
     </footer>
     <div class="bottom-teaser cf">

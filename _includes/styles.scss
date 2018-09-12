@@ -389,17 +389,17 @@ body {
     }
     ul,
     ol {
-      padding: 0 0 30px;
+      padding: 20px 0 0px;
       margin: 0;
     }
     li {
       padding: 0;
       font-weight: 400;
       font-style: normal;
-      font-size: 23px;
-      line-height: 30px;
+      font-size: 16px;
+      line-height: 25px;
       margin-left: 30px;
-      margin-bottom: 12px;
+      margin-bottom: 5px;
       padding-top: 2px;
       p {
         padding: 0 0 golden-ratio(1rem, 1);
@@ -407,6 +407,18 @@ body {
     }
     ol li {
       list-style-type: decimal;
+    }
+    ul {
+      list-style-type: disc;
+      li {
+        list-style-type: disc;
+        ul {
+          padding: 0;
+        }
+        ul li {
+          list-style-type: circle;
+        }
+      }
     }
   }
   .bottom-teaser {
@@ -514,9 +526,20 @@ body {
 }
 
 .share {
-  text-align: right;
-  padding: 20px 0 0;
+  display:block;
+  // text-align: right;
+      border-top: 1px solid #dededc;
+      padding: 10px 0 50px;
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  amp-social-share {
+    margin-right: 5px;
+  }
   a {
+    display:block;
+    text-align:right;
     text-decoration: none;
     color: #bbbbbb;
     padding-left: 12px;
@@ -526,6 +549,10 @@ body {
     &:hover {
       color: #333333;
     }
+  }
+  .share-flex {
+        display: flex;
+    flex-direction: row;
   }
 }
 
@@ -896,6 +923,7 @@ nav {
   max-height: 300px;
   overflow: auto;
   max-width: 330px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   .btm-placeholder {
@@ -903,3 +931,24 @@ nav {
     color: rgb(189, 189, 189);
   }
 }
+amp-social-share {
+      float: left;
+    margin-bottom: 10px;
+}
+/*For non mobile devices righto, might hit some bigger tablets but care!*/
+@media only screen and (min-device-width: 1025px) {
+
+  .bottom-aa-post {
+   height: 0px;
+     amp-ad {
+   display:none !important;
+  }
+  }
+  .bottom-feed-aa {
+    display:none;
+    amp-ad {
+   display:none !important;
+  }
+  }
+}
+
