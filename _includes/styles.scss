@@ -940,11 +940,13 @@ amp-social-share {
 
   .bottom-aa-post {
    height: 0px;
+   display:none;
      amp-ad {
    display:none;
   }
   }
   .bottom-feed-aa {
+    height: 0px;
     display:none;
     amp-ad {
    display:none;
