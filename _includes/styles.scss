@@ -299,7 +299,7 @@ body {
       font-style: normal;
       font-size: 21px;
       line-height: 1.7;
-      margin-top: 50px;
+      margin-top: 30px;
       margin-bottom: 0px;
     }
     h4,
@@ -656,12 +656,18 @@ nav {
     font-size: 16px;
   }
   a {
+    // margin-left: 20px;
+    // color: #222;
+    // text-align: right;
+    // font-weight: 300;
+    // letter-spacing: 1px;
+    // text-decoration: none;
     margin-left: 20px;
-    color: #222;
+    color: #643e0b;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    text-decoration: none;
+    text-decoration: underline;
     &:hover {
       color: $blue;
     } // &:active,
