@@ -4,34 +4,27 @@
 // Colors
 $blue: #4183C4;
 // Grays
-$black: #000;
+$black: #43414e;
+// word-break: break-word;
+    // color: #43414e;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
+
 // Font stacks
-$helvetica: Lato,
-Verdana,
-Arial,
-sans-serif;
-$helveticaNeue: "Lato",
-Verdana,
-Arial,
-sans-serif;
-$georgia: Arial,
-Verdana,
-serif;
+// $georgia: Arial, Verdana, serif;
+// $helvetica: Lato,Verdana,Arial,sans-serif;
+// $titlefont: Lato, Verdana, Arial, sans-serif;
+// $postcontentfont: Lato,Verdana,Arial,serif;
+// $commonfont: "Open Sans",Arial,Verdana,sans-serif;
+$titlefont: Lato, Verdana, Arial, sans-serif;
+$postcontentfont: Lato,Verdana,Arial,serif;
+$commonfont: Lato,Arial,Verdana,sans-serif;
 $mobileBreak: 640px;
 $rs: 16px;
-$font-serif: "Lato",
-Verdana,
-Arial,
-serif;
-$font-sans: "Open Sans",
-Arial,
-Verdana,
-sans-serif;
+
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
     @content;
