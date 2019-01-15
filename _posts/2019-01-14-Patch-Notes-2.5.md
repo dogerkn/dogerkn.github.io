@@ -3,12 +3,27 @@ layout: post
 title: Patch Notes 2.5
 ---
 
-# Patch notes for 2.5a (Auto-Loot beta)
+
+# Patch notes for 2.5b (Auto-Loot "beta 2")
 
 <amp-img width="290" height="165" alt="The Auto-Loot Option" src="/assets/images/autoloot.jpg"></amp-img>
 
+## Changes:
 
-This is a short post detailing the changes recently uploaded. 
++ Reduced value calculation for rocks (slightly) and fixed an issue where the saved value would sometimes become >100% 
++ Reduced Titan "rock" base value slightly
++ Changed multiple functions that remove stuff to be more optimized and remove with higher success rate (it seems)
+    - _Hopefully this solves most cases of stuck text and such_
++ A ton of similar changes where the destroy methods were called too fast in repetition, this is not recommended with PIXI
+    - _Pro tip was: use timeouts without time set (=next frame) if destroying many sprites fast_
+
+Hopefully these changes will solve the issues that surfaced yesterday.
+
+I uploaded this version after testing it briefly on a PC (Chrome@win10), an iPad (Safari@ iOS 12.1.1) as well as an Android phone (Chrome, Android 8.0.0). They ran fine and the changes were simple enough that I believe I didn't break it from working.
+
+Those few of you with browsers that cache very aggressively might have some issues as usual, as usual I recommend attempting a hard refresh (Ctrl+F5 on Windows), sometimes this is required once per location (you'll know if you need it).
+
+### Patch notes for 2.5a (Auto-Loot "beta 1")
 
 ## Changes:
 
