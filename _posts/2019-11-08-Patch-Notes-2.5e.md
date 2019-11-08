@@ -23,6 +23,7 @@ Plus everything else I forgot I fixed/changed/added. There's no _new_ in-game co
 + Some optimizations to the loading of both landing & game pages
     - _Older versions of Safari on OSX & iOS may see the opposite and may not work at all..._
 + Kittens protesting harsh working conditions have been permanently terminated
++ If on a phone and for some reason the desktop layout is activated, the game will detect this and force-use the phone layout
 + All the other things
 
 _It goes without saying these days: If the game has completely broken for you with this update, let me know (first try refreshing the page, that usually solves minor hiccups)_
