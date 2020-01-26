@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Patch Notes 2.6, The Mystery Box
+title: Patch Notes 2.6
 ---
 
 
-# Patch notes for 2.6
+# Patch notes for 2.6 - Mystery Box
 
 ### Quick note - We've started an official Steam group for Dogeminer!
 
