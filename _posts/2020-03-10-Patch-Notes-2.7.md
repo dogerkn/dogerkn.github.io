@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Patch Notes 2.7 - Stat Changes
+title: Patch Notes 2.7
 ---
 
 
