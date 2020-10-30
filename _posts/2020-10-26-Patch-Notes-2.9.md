@@ -104,22 +104,17 @@ Should there be issues that needs reporting, it will be reported on Discord, I'm
     - Nothing that you care about, I just hope that it still works!
 + Probably a dozen of other small things. As usual... probably not much that is of interest anyway. Maybe something. Idk.
 
+# Happy Halloween!
 
-__I hope I didn't break the game for anyone. Stay safe!__
+A minor halloween theme has been added!
 
-**Please report bugs in the _[#bug_reporting](https://dogeminer2.com/discord){:target="_blank"}_ channel on [Discord](https://dogeminer2.com/discord){:target="_blank"}** found under the _"Feedback & Ideas"_ category, **but before you do, try a refresh (F5)** - your browser might have loaded old, cached files. Thank you <3
+Next year it will run through the entirety of October, but this year we'll have it for the Halloween weekend as well as a week or two into November.
 
+There's only ~8 Halloween-specific items to find, no event or anything like that; mostly aesthetics things this time around. There were a few more ideas I wanted to add but time got cut short, lets just call it the 2020 edition, heh.
 
-# Halloween theme to be added ASAP
+__I hope I didn't break the game for anyone. Let me know if so. Stay safe!__
 
-Next up is a quick Halloween-theme for the game some day this week. Should probably make it last a week or two into November, due to the delay in getting this patch out, but for the future it'll be active for the whole month of October, as with the other holidays _(x-mas & easter)_.
+**Please report bugs in the _[#bug_reporting](https://dogeminer2.com/discord){:target="_blank"}_ channel on [Discord](https://dogeminer2.com/discord){:target="_blank"}** found under the _"Feedback & Ideas"_ category, **but before you do, try a refresh (F5)** - your browser might have loaded cached files from before. Thank you <3
 
-The theme for Halloween this year will be _much simple_ and not include very much content, sorry. Count on some looks/UI + a few items.
-
-It will be uploaded to live rather hastily this week, since it is already the last days of October, and we don't have a Halloween-theme yet. I know. Shame.
-
-PS. Halloween is the last "big" missing international holiday that the game doesn't have, so it makes sense to me to get _something_ up before the month is over. So ya'll can get some Halloween item and stuff, yeah.
-
-Okay. Bye for now.
 
 //**[rkn](https://twitter.com/rkn_dev){:target="_blank"}**
