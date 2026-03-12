@@ -11,21 +11,19 @@ layout: default
       <a name="topofpage"></a>
       {{content}}
     </section>
+    <section class="discord-cta">
+      <a href="https://dogeminer2.com/discord" target="_blank" class="discord-link">
+        Join the discussion on Discord
+      </a>
+    </section>
     <footer class="post-footer">
       <section class="share">
         <p>Share this post:</p>
         <div class="share-flex">
-          <amp-social-share type="system" data-mode="replace"></amp-social-share>
-          <amp-social-share type="facebook" data-param-app_id="458883514568847" data-param-quote="{{page.title | escape}} via @Dogeminer"></amp-social-share>
           <amp-social-share type="twitter" data-param-text="{{ page.title | escape }} (via @{{ site.twitter_username }})"></amp-social-share>
-          <amp-social-share type="gplus"></amp-social-share>
-          <amp-social-share type="tumblr"></amp-social-share>
-          <amp-social-share type="email"></amp-social-share>
-          <!-- <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
-          Share on
-          {% include icon-twitter.html %}
-        </a> -->
-      </div>
+          <amp-social-share type="facebook" data-param-app_id="458883514568847" data-param-quote="{{page.title | escape}} via @Dogeminer"></amp-social-share>
+          <amp-social-share type="reddit"></amp-social-share>
+        </div>
       </section>
     </footer>
     <div class="bottom-teaser cf">
@@ -52,11 +50,6 @@ layout: default
       {% include disqus.html %}
     </section>
     {% endcomment %}
-    <section class="discord-cta">
-      <a href="https://dogeminer2.com/discord" target="_blank" class="discord-link">
-        Join the discussion on Discord
-      </a>
-    </section>
     {% include post-ad.html %}
   </article>
 </main>

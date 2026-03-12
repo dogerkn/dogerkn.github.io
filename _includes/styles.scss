@@ -276,7 +276,7 @@ body {
       font-style: normal;
       font-size: 30px;
       line-height: 1.7;
-      margin-top: 50px;
+      margin-top: 30px;
       margin-bottom: 0px;
     }
     h2 {
@@ -540,7 +540,9 @@ body {
     margin-bottom: 20px;
   }
   amp-social-share {
-    margin-right: 5px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
   }
   a {
     display:block;
@@ -642,6 +644,44 @@ h6 {
   }
 }
 
+.masthead-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.header-discord {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  svg {
+    width: 96px;
+    height: 96px;
+    fill: #5865F2;
+    transition: fill 0.15s ease;
+  }
+  .header-discord-label {
+    color: #5865F2;
+    font-family: $titlefont;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+    transition: color 0.15s ease;
+  }
+  &:hover {
+    svg { fill: #4752C4; }
+    .header-discord-label { color: #4752C4; }
+  }
+  @include mobile {
+    margin: 10px 0;
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -650,35 +690,23 @@ h6 {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  display: inline;
   font-family: $titlefont;
   font-size: 18px;
   @include mobile {
-    float: none;
-    margin-top: 9px;
     display: block;
+    margin-top: 9px;
     font-size: 16px;
   }
   a {
-    // margin-left: 20px;
-    // color: #222;
-    // text-align: right;
-    // font-weight: 300;
-    // letter-spacing: 1px;
-    // text-decoration: none;
     margin-left: 20px;
     color: #643e0b;
-    text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
     text-decoration: underline;
     &:hover {
       color: $blue;
-    } // &:active,
-    // &:focus {
-    //   color: #222;
-    // }
+    }
     @include mobile {
       margin: 0 10px;
       color: $blue;
@@ -739,9 +767,7 @@ nav {
 }
 
 .site-info {
-  float: left;
   @include mobile {
-    // float: none;
     display: block;
     margin: 0 auto;
   }
@@ -814,23 +840,15 @@ nav {
 }
 
 .top-teaser {
-  display: inline;
-  padding: 50px 0 0 0;
-  font-family: $commonfont; // hr {
-  //   border: 0;
-  //   padding: 0;
-  //   display: block;
-  //   width: 15%;
-  //   margin: 16px 0 16px 100px;
-  //   // border: 0px solid #dddddd;
-  //   // border-top: 1px solid #dddddd;
-  // }
+  flex-shrink: 0;
+  padding: 0;
+  font-family: $commonfont;
   .isRight {
     float: right;
-    width: 45%;
     @include box-sizing(border-box);
     @include mobile {
-      width: 29%;
+      float: none;
+      width: 100%;
     }
     .bio {
       margin-top: 10px;
@@ -942,9 +960,14 @@ nav {
     color: rgb(189, 189, 189);
   }
 }
-amp-social-share {
-      float: left;
-    margin-bottom: 10px;
+amp-social-share[type="twitter"] {
+  background-color: #000000;
+}
+amp-social-share[type="facebook"] {
+  background-color: #1877F2;
+}
+amp-social-share[type="reddit"] {
+  background-color: #FF4500;
 }
 /*For non mobile devices righto, might hit some bigger tablets but care!*/
 .discord-cta {
