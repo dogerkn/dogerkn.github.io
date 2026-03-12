@@ -649,8 +649,9 @@ h6 {
   align-items: center;
   justify-content: space-between;
   @include mobile {
-    flex-direction: column;
-    align-items: center;
+    .top-teaser {
+      display: none;
+    }
   }
 }
 
@@ -676,9 +677,6 @@ h6 {
   &:hover {
     svg { fill: #4752C4; }
     .header-discord-label { color: #4752C4; }
-  }
-  @include mobile {
-    margin: 10px 0;
   }
 }
 
@@ -968,6 +966,12 @@ amp-social-share[type="facebook"] {
 }
 amp-social-share[type="reddit"] {
   background-color: #FF4500;
+}
+amp-social-share[type="whatsapp"] {
+  background-color: #25D366;
+}
+amp-social-share[type="email"] {
+  background-color: #555555;
 }
 /*For non mobile devices righto, might hit some bigger tablets but care!*/
 .discord-cta {
