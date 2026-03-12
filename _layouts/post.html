@@ -22,7 +22,7 @@ layout: default
         <div class="share-flex">
           <amp-social-share type="twitter" data-param-text="{{ page.title | escape }} (via @{{ site.twitter_username }})"></amp-social-share>
           <amp-social-share type="facebook" data-param-app_id="458883514568847" data-param-quote="{{page.title | escape}} via @Dogeminer"></amp-social-share>
-          <amp-social-share type="reddit"></amp-social-share>
+          <amp-social-share type="reddit" data-share-endpoint="https://reddit.com/submit" data-param-url="{{site.url}}{{page.url}}" data-param-title="{{page.title | escape}}"></amp-social-share>
           <amp-social-share type="whatsapp"></amp-social-share>
           <amp-social-share type="email"></amp-social-share>
         </div>
