@@ -4,3 +4,7 @@ _site
 .DS_Store
 _sass/bourbon
 .vscode
+CLAUDE.md
+continue.md
+POST_TEMPLATE.md
+POST_CONTEXT.md
