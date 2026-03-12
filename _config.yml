@@ -9,14 +9,14 @@
 title: "Dogeminer 2: Devblog 2 The Moon(s)"
 email: "rkn@dogeminer.se"
 description: "The Dogeminer dev blog hosts patch notes and other developer updates in the Dogeminer series."
-logo: "/assets/images/dogeminer2_devblog.png"
+logo: "/assets/images/dogeminer2_devblog.webp"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dogeminer2.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 # disqus: "dogeminer" # Disabled — Disqus injects ads. Uncomment to restore comments.
 name: "rkn"
 bio: "Just another shibe"
-author_image: "/assets/images/author.png"
+author_image: "/assets/images/author.webp"
 twitter_username: "rkn_dev" # todo insert all social shit in places yo
 instagram: "dogeminerdev"
 facebook: "dogeminer"

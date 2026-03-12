@@ -25,7 +25,7 @@ That's about a month away from today (July 17th). I've set up the "to do" notes 
 
 Here's a picture I took of the moon with my phone and some binoculars, which is completely off topic but makes the page less of a wall of text, also I'm a little proud... that it's almost a good picture.
 
-<amp-img width="724" height="397" layout="responsive" alt="A picture of the moon" src="/assets/images/itap.jpg"></amp-img>
+<amp-img width="724" height="397" layout="responsive" alt="A picture of the moon" src="/assets/images/itap.webp"></amp-img>
 
 
 *The mission is done by the way*, except for the phone details of course (making things smaller, moving them a bit, that sort of stuff). Don't worry I've got a post-it for it. Luckily, most of you (since release) play via PC or Tablet (<5% phone users, go you!). *The Phone version needs to keep up though, especially as I get closer to turning this thing into an app (!),* but I feel it's been far from perfect from the start and I might want to improve upon it *more than I have time to do before this release*.

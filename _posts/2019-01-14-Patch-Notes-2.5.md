@@ -6,7 +6,7 @@ title: Patch Notes 2.5
 
 # Patch notes for 2.5b (Auto-Loot "beta 2")
 
-<amp-img width="290" height="165" alt="The Auto-Loot Option" src="/assets/images/autoloot.jpg"></amp-img>
+<amp-img width="290" height="165" alt="The Auto-Loot Option" src="/assets/images/autoloot.webp"></amp-img>
 
 ## Changes:
 
