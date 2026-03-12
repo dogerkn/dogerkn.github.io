@@ -947,6 +947,27 @@ amp-social-share {
     margin-bottom: 10px;
 }
 /*For non mobile devices righto, might hit some bigger tablets but care!*/
+.discord-cta {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 10px;
+  border-top: 1px solid #dededc;
+  .discord-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5865F2;
+    color: #fff;
+    font-family: $commonfont;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    &:hover {
+      background-color: #4752C4;
+    }
+  }
+}
+
 @media only screen and (min-device-width: 1025px) {
 
   .bottom-aa-post {
