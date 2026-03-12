@@ -13,7 +13,7 @@ logo: "/assets/images/dogeminer2_devblog.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dogeminer2.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
-disqus: "dogeminer"
+# disqus: "dogeminer" # Disabled — Disqus injects ads. Uncomment to restore comments.
 name: "rkn"
 bio: "Just another shibe"
 author_image: "/assets/images/author.png"
