@@ -14,8 +14,14 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <excerpt>{{ post.excerpt | strip_html | truncatewords: 25 | xml_escape }}</excerpt>
+        {% assign split_content = post.content | split: '</h1>' %}
+        {% if split_content.size > 1 %}
+          {% assign smart_excerpt = split_content[1] | strip_html | strip | truncatewords: 50 %}
+        {% else %}
+          {% assign smart_excerpt = post.content | strip_html | strip | truncatewords: 50 %}
+        {% endif %}
+        <description>{{ smart_excerpt | xml_escape }}</description>
+        <excerpt>{{ smart_excerpt | truncatewords: 25 | xml_escape }}</excerpt>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
